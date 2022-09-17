@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/">
+    <link rel="icon" type="image/png" sizes="32x32" href="./src/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./src/icons/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+        <title>Portfólio</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+    
+</head>
+<body>
+     <div class="coteiner"> <!--vai conter toda a pagina-->
+            
+            <p class="hamburger invisivel1"><i class="fa-solid fa-bars"></i></p>
+            <img src="./src/icons/letterx_83737.ico" alt="" class="hamburger2 invisivel2">
+
+        <header id="topo"><!--Cabeçalho da pagina-->
+            <div class="img-embrulho"><!--enbrulho da imagem-->
+                <img src="./src/imagens/imagem-header.jpg" alt="">
+            </div>
+            <div class="banner">
+                <h1>Web Developer front End </h1><!--texto-->
+                <p class="nome">
+                    <span id="nome"> </span>
+                    <span class="displaiy" id="cursor">|</span>
+                </p>
+                <p class="fora">João Eduardo</p>
+                <!--subtitulo-->
+                <a href="#conhecimento"><Button>Saiba mais</Button></a>
+            </div>
+        </header>
+        <aside class="sidebar  invisivel">
+            <nav>
+                <ul class="menu">
+                    <li class="menu-item"><a target="_self" href="#topo" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a target="_self" href="#conhecimento" class="menu-link">Sobre</a></li>
+                    <li class="menu-item"><a target="_self" href="#projetos" class="menu-link">Projetos</a></li>
+                </ul>
+            </nav>
+            <div class="social-media">
+                <a target="_blank" rel="external" href="https://www.linkedin.com/in/jo%C3%A3o-eduardo-657887231/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a target="_blank" rel="external" href="https://github.com/JoaoEduardo10"><i class="fab fa-github"></i></a>
+                <a target="_blank" rel="external" href="https://www.instagram.com/joao_eduardo07/"><i class="fab fa-instagram"></i></a>
+                
+            </div>
+
+        </aside>
+        <section  class="sobre boder-bottom" id="conhecimento"><!--Inicio da section sobre-->
+            <div data-anime="left" class="sobre-header">
+                <h2>Sobre Mim</h2>
+            </div>
+            <section data-anime="left" class="sobre-mim"><!--inicio sessao sobre-mim-->
+                <img class="img" src="./src/imagens/107424640.jpeg" alt="minha foto">
+                <div class="sobre-mim-text">
+                    <h3>Teresina,PI</h3>
+                    <div class="text">
+                        <p>Olá, me chamo João Eduardo e sou um apaixonado por tecnologia. Meu primeiro contato com programação, foi quando vi o meu primo fazer uma calculadora com Python.  Maravilhado com tudo aquilo, quis logo aprender sobre.
+                        </p>
+                        <p>Hoje, já entendo algumas tecnologias voltadas para o Front-end. E continuo meus estudos, tendo sempre em mente que estamos em constante aprendizado.</p>
+                        <!--<a href="http://"><i class="fa-solid fa-cloud-arrow-down"></i>Curriculo</a>-->
+                    </div>
+                    
+                </div>
+            </section><!--/fim sessao sobre mim-->
+
+            <div data-anime="rigth" class="sobre-header">
+                <h2>Habilidades</h2>
+            </div>
+
+            <ul data-anime="rigth" class="conteiner-skills"><!--conteiner skills-->
+
+                <li class="list-skills"><!---list-skill HTML-->
+                    <div class="list-skills-header">
+                        <h4>HTML</h4>
+                        <span id="porcentagemHtml">95%</span>
+                    </div>
+                    <div class="progreco">
+                        <span class="barra-progreco" id="html"></span>
+                    </div>
+                </li><!--fim list-skill CSS-->
+                <li class="list-skills"><!---list-skill CSS-->
+                    <div class="list-skills-header">
+                        <h4>CSS</h4>
+                        <span id="porcentagemCss">89%</span>
+                    </div>
+                    <div class="progreco">
+                        <span class="barra-progreco" id="css"></span>
+                    </div>
+                </li><!--fim list-skill CSS-->
+                <li class="list-skills"><!---list-skill JavaScript-->
+                    <div class="list-skills-header">
+                        <h4>JavaScript</h4>
+                        <span id="porcentagemJavaScript">80%</span>
+                    </div>
+                    <div class="progreco">
+                        <span class="barra-progreco" id="javaScript"></span>
+                    </div>
+                </li><!--fim list-skill JavaScript-->
+                <li class="list-skills"><!---list-skill React.js-->
+                    <div class="list-skills-header">
+                        <h4>React.js</h4>
+                        <span id="porcentagemReact">30%</span>
+                    </div>
+                    <div class="progreco">
+                        <span class="barra-progreco" id="react"></span>
+                    </div>
+                </li><!--fim list-skill React.js-->
+
+            </ul><!--/fim conteiner skills-->
+            
+        </section><!--/fim section sobre-->
+        <section class="sessao-projetos boder-bottom" id="projetos">
+            <div data-anime="left" class="header">
+                <h1>Projetos</h1>
+            </div>
+            <p data-anime="left" class="p">Passe o mouse sobre os cards.</p>
+            <p data-anime="left" class="p2" >Click no cards</p>
+            <div data-anime="left" data-anime="left" class="projetos">
+                
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./src/imagens/irina-blok-pq.jpg" alt="imagem do dan android">
+                        </div>
+                        <div class="card-info android">
+                            <h2>Android</h2>
+                            <h3>HTML e CSS</h3>
+                            <p>Site de Documentário. Fala sobre como surgiu o mascote Android "BugDroid".</p>
+                            <a target="_blank" rel="external" href="https://joaoeduardo10.github.io/HTML-CSS/desafios/SiteBugdroid/"><button class="btn">Saiba mais</button></a>
+                        </div>
+                    </div>
+                
+                    <div class="card">
+                        <div class="card-img">
+                            <img id="img2" src="./src/imagens/imagem-form.jpg" alt="imagem do projeto maratona">
+                        </div>
+                        <div class="card-info">
+                            <h2>Formulário</h2>
+                            <h3>HTML, CSS e JavaScript</h3>
+                            <p>Site de formulário de cadastro com: HTML, CSS e JavaScript. Mostrando um pouco mais das minhas habilidades.
+                                
+                            </p>
+                            <a target="_blank" rel="external" href="https://joaoeduardo10.github.io/HTML-CSS/desafios/projetoSiteForm/"><button class="btn">Saiba mais</button></a>
+                            
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./src/imagens/pexels-obregonia-d-toretto-918281.jpg" alt="imagem do projetoCasa bela">
+                        </div>
+                        <div class="card-info">
+                            <h2>Netflix</h2>
+                            <h3>HTML, CSS e JavaScript</h3>
+                            <p>Site com a tela inicial da Netflix "sign page".</p>
+                            <a target="_blank" rel="external" href="https://joaoeduardo10.github.io/HTML-CSS/desafios/siteNatflix/"><button class="btn">Saiba mais</button></a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-img">
+                            <img id="Yu-Gi-Oh" src="./src/imagens/fundo-site.jpg" alt="Yu-Gi-Oh">
+                        </div>
+                        <div class="card-info android">
+                            <h2>Yu-Gi-Oh</h2>
+                            <h3>HTML, CSS e JavaScript</h3>
+                            <p></p>
+                            <a target="_blank" rel="external" href="https://joaoeduardo10.github.io/HTML-CSS/desafios/mapaDevWeek-Projeto-Yu-Gi-Oh/"><button class="btn">Saiba mais</button></a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-img">
+                            <img id="Yu-Gi-Oh" src="./src/imagens/calculadora.jpg" alt="Yu-Gi-Oh">
+                        </div>
+                        <div class="card-info android">
+                            <h2>Calculadora</h2>
+                            <h3>HTML, CSS e JavaScript</h3>
+                            <p>Site de calculara feito com: HTML, CSS e JavaScript.</p>
+                            <a target="_blank" rel="external" href="https://joaoeduardo10.github.io/HTML-CSS/desafios/calculadora/"><button class="btn">Saiba mais</button></a>
+                        </div>
+                    </div>
+
+            </div>
+        </section><!--fim da section-->
+    
+        <footer>
+            <div class="footer-content">
+                <p>
+                    &copy; 2022, João Eduardo
+                </p>
+                <div class="social-list">
+                    <ul>
+                        <a target="_blank" rel="external" href="https://www.linkedin.com/in/jo%C3%A3o-eduardo-657887231/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a target="_blank" rel="external" href="https://github.com/JoaoEduardo10"><i class="fab fa-github"></i></a>
+                    <a target="_blank" rel="external" href="https://www.instagram.com/joao_eduardo07/"><i class="fab fa-instagram"></i></a>
+                    </ul>
+
+                </div>
+            </div>
+        </footer>
+        <a href="#topo" id="link-top">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+    </div>
+    <script src="./src/js/script.js"></script>
+</body>
+</html>
