@@ -16,6 +16,7 @@
     padding: 0%;
     list-style: none;
     text-decoration: none;
+    border: 1px solid red;
 
 }
 .fora{
@@ -669,12 +670,73 @@ footer{
     
 }
 
+@media (max-width: 887px) {
+    
+    .img{
+        width: 70%;
+    }
+    .sobre-mim{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .list-skills{
+        padding-left: 10%;
+    }
+    .progreco{
+        width: 90%;
+    }
+    #porcentagemHtml{
+        left: 51%;
+    }
+    #porcentagemCss{
+        left: 41%;
+    }
+    #porcentagemJavaScript{
+        left: 28%;
+    }
+    #porcentagemReact{
+        left: -49%;
+    }
+    .card{
+        height: 440px;
+    }
+    
+    .card-info{
+        top: 10%;
+        width: 60%;
+    }
+    .p{
+        display: none;
+    }
+    .p2{
+        display: block;
+        text-align: center;
+        color: #7c599e;
+        font-family: var(--font2);
+        font-size: 1.3rem;
+    }
+    #link-top{
+        display: none;
+    }
 
-@media (max-width: 886px) {
+    .footer-content{
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+    
+}
+
+
+@media (max-width: 547px) {
     
     .hamburger{
-        width: 40%;
-        left: 67%;
+        width: 30%;
+        left: 69%;
     }
     .sidebar{
         width: 100%;
@@ -682,15 +744,21 @@ footer{
     .banner{
         width: 90%;
     }
+    .sobre-mim{
+        justify-content: center;
+        align-items: center;
+    }
+    .sobre-mim-text{
+        width: 80%;
+    }
     .conteiner-skills{
         width: 100%;
-        background-color: #6a3093;
         
     }
     .list-skills{
         padding-left: 0;
         width: 100%;
-        background-color: #a7a7a7;
+        
     }
     .progreco{
         width: 90%;
@@ -701,16 +769,151 @@ footer{
         
     }
     #porcentagemHtml{
-        left: 60%;
+        left: 48%;
     }
     #porcentagemCss{
-        left: 50%;
+        left: 39%;
     }
     #porcentagemJavaScript{
-        left: 36%;
+        left: 25%;
     }
     #porcentagemReact{
-        left: -26%;
+        left: -35.6%;
+    }
+    #react{
+        width: 40%;
+    }
+    .sobre-mim{
+    
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .text a:active{
+        background-color: #7c599e;
+    }
+
+    .img{
+        width: 80%;
+    }
+}
+
+@media (max-width: 550px) {
+    
+    .hamburger{
+        width: 30%;
+        left: 67%;
+    }
+    .sidebar{
+        width: 100%;
+    }
+    .banner{
+        width: 90%;
+    }
+    .sobre-mim{
+        justify-content: center;
+        align-items: center;
+    }
+    .sobre-mim-text{
+        width: 100%;
+    }
+    .conteiner-skills{
+        width: 100%;
+        padding: 10px;
+        
+    }
+    .list-skills{
+        padding-left: 0;
+        width: 100%;
+        
+    }
+    .progreco{
+        width: 90%;
+    }
+    
+    .barra-progreco{
+        width: 100%;
+        
+    }
+    #porcentagemHtml{
+        left: 54%;
+    }
+    #porcentagemCss{
+        left: 44%;
+    }
+    #porcentagemJavaScript{
+        left: 31%;
+    }
+    #porcentagemReact{
+        left: -30.5%;
+    }
+    #react{
+        width: 40%;
+    }
+    .sobre-mim{
+    
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .text a:active{
+        background-color: #7c599e;
+    }
+
+    .img{
+        width: 80%;
+    }
+}
+
+@media (max-width: 535px) {
+    
+    .hamburger{
+        width: 30%;
+        left: 65%;
+    }
+    .sidebar{
+        width: 100%;
+    }
+    .banner{
+        width: 90%;
+    }
+    .sobre-mim{
+        justify-content: center;
+        align-items: center;
+    }
+    .sobre-mim-text{
+        width: 100%;
+        font-size: 0.9rem;
+    }
+    .conteiner-skills{
+        width: 100%;
+        padding: 10px;
+        
+    }
+    .list-skills{
+        padding-left: 0;
+        width: 100%;
+        
+    }
+    .progreco{
+        width: 90%;
+    }
+    
+    .barra-progreco{
+        width: 100%;
+        
+    }
+    #porcentagemHtml{
+        left: 58%;
+    }
+    #porcentagemCss{
+        left: 48%;
+    }
+    #porcentagemJavaScript{
+        left: 34%;
+    }
+    #porcentagemReact{
+        left: -27%;
     }
     #react{
         width: 40%;
