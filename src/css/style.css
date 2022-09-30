@@ -462,6 +462,7 @@ header{
     width: 18rem;
     position: relative;
     margin: 1rem;
+    height: 440px;
 }
 
 .card-img{
@@ -533,6 +534,7 @@ header{
     border-radius: .5rem;
     border: none;
     box-shadow: 0 .1rem .8re, rgba(0, 0, 0, 0.014);
+    margin-bottom: 0.4rem;
 }
 
 .card-info button{
