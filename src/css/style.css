@@ -733,7 +733,9 @@ footer{
 
 
 @media (max-width: 547px) {
-    
+    .sidebar{
+        height: 100vh;
+    }
     .hamburger{
         width: 30%;
         left: 69%;
@@ -866,6 +868,10 @@ footer{
 }
 
 @media (max-width: 535px) {
+
+    .hamburger2{
+        left: 10%;
+    }
     
     .hamburger{
         width: 30%;
