@@ -734,7 +734,7 @@ footer{
 
 @media (max-width: 547px) {
     .sidebar{
-        height: 100vh;
+        min-height: 100vh;
     }
     .hamburger{
         width: 30%;
