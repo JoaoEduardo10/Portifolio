@@ -392,13 +392,16 @@ header{
     content: "";
 }
 #porcentagemCss{
-    right: 6.4%;
+    right: 2.2%;
 }
 #porcentagemJavaScript{
-    right: 15.4%;
+    right: 5.4%;
 }
 #porcentagemReact{
-    right: 66.3%;
+    right: 5.4%;
+}
+#porcentagemTypeScript{
+    right: 10.5%;
 }
 .progreco{
     background-color: gainsboro;
@@ -420,13 +423,16 @@ header{
     width: 95%;
 }
 #css{
-    width: 89%;
+    width: 93%;
 }
 #javaScript{
-    width: 80%;
+    width: 90%;
 }
 #react{
-    width: 30%;
+    width: 90%;
+}
+#typescript{
+    width: 85%;
 }
 
 
@@ -667,6 +673,24 @@ footer{
         justify-content: center;
         gap: 1rem;
     }
+
+    #porcentagemHtml{
+        right: -2%;
+    }
+
+    #porcentagemCss{
+        right: .2%;
+    }
+    #porcentagemJavaScript{
+        right: 3.0%;
+    }
+    #porcentagemReact{
+        right: 3%;
+    }
+    #porcentagemTypeScript{
+        right: 8.5%;
+    }
+   
     
 }
 
@@ -688,16 +712,19 @@ footer{
         width: 90%;
     }
     #porcentagemHtml{
-        left: 51%;
+        left: 49%;
     }
     #porcentagemCss{
-        left: 41%;
+        left: 46%;
     }
     #porcentagemJavaScript{
-        left: 28%;
+        left: 41%;
     }
     #porcentagemReact{
-        left: -49%;
+        left: 41%;
+    }
+    #porcentagemTypeScript{
+        left: 33.5%;
     }
     .card{
         height: 440px;
@@ -729,75 +756,6 @@ footer{
         gap: 1rem;
     }
     
-}
-
-
-@media (max-width: 547px) {
-    .sidebar{
-        min-height: 100vh;
-    }
-    .hamburger{
-        width: 30%;
-        left: 69%;
-    }
-    .sidebar{
-        width: 100%;
-    }
-    .banner{
-        width: 90%;
-    }
-    .sobre-mim{
-        justify-content: center;
-        align-items: center;
-    }
-    .sobre-mim-text{
-        width: 80%;
-    }
-    .conteiner-skills{
-        width: 100%;
-        
-    }
-    .list-skills{
-        padding-left: 0;
-        width: 100%;
-        
-    }
-    .progreco{
-        width: 90%;
-    }
-    
-    .barra-progreco{
-        width: 100%;
-        
-    }
-    #porcentagemHtml{
-        left: 48%;
-    }
-    #porcentagemCss{
-        left: 39%;
-    }
-    #porcentagemJavaScript{
-        left: 25%;
-    }
-    #porcentagemReact{
-        left: -35.6%;
-    }
-    #react{
-        width: 40%;
-    }
-    .sobre-mim{
-    
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-    .text a:active{
-        background-color: #7c599e;
-    }
-
-    .img{
-        width: 80%;
-    }
 }
 
 @media (max-width: 550px) {
@@ -838,19 +796,87 @@ footer{
         
     }
     #porcentagemHtml{
-        left: 54%;
+        left: 52%;
     }
     #porcentagemCss{
-        left: 44%;
+        left: 49%;
     }
     #porcentagemJavaScript{
-        left: 31%;
+        left: 44%;
     }
     #porcentagemReact{
-        left: -30.5%;
+        left: 44%;
     }
-    #react{
-        width: 40%;
+    #porcentagemTypeScript{
+        left: 37%
+    }
+     
+    .sobre-mim{
+    
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .text a:active{
+        background-color: #7c599e;
+    }
+
+    .img{
+        width: 80%;
+    }
+}
+
+@media (max-width: 547px) {
+    .sidebar{
+        min-height: 100vh;
+    }
+    .hamburger{
+        width: 30%;
+        left: 69%;
+    }
+    .sidebar{
+        width: 100%;
+    }
+    .banner{
+        width: 90%;
+    }
+    .sobre-mim{
+        justify-content: center;
+        align-items: center;
+    }
+    .sobre-mim-text{
+        width: 80%;
+    }
+    .conteiner-skills{
+        width: 100%;
+    }
+    .list-skills{
+        padding-left: 0;
+        width: 100%;
+        
+    }
+    .progreco{
+        width: 90%;
+    }
+    
+    .barra-progreco{
+        width: 100%;
+        
+    }
+    #porcentagemHtml{
+        left: 52%;
+    }
+    #porcentagemCss{
+        left: 49%;
+    }
+    #porcentagemJavaScript{
+        left: 45%;
+    }
+    #porcentagemReact{
+        left: 45%;
+    }
+    #porcentagemTypeScript{
+        left: 36.5%;
     }
     .sobre-mim{
     
@@ -910,19 +936,19 @@ footer{
         
     }
     #porcentagemHtml{
-        left: 58%;
+        left: 52%;
     }
     #porcentagemCss{
-        left: 48%;
+        left: 49%;
     }
     #porcentagemJavaScript{
-        left: 34%;
+        left: 45%;
     }
     #porcentagemReact{
-        left: -27%;
+        left: 45%;
     }
-    #react{
-        width: 40%;
+    #porcentagemTypeScript{
+        left: 36.5%;
     }
     .sobre-mim{
     
