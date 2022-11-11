@@ -403,6 +403,19 @@ header{
 #porcentagemTypeScript{
     right: 10.5%;
 }
+
+#porcentagemRedux{
+    right: 20.3%;
+}
+
+#porcentagemSass{
+    left: 3%;
+}
+
+#porcentagemStyled{
+    left: 1%;
+}
+
 .progreco{
     background-color: gainsboro;
     width: 60%;
@@ -433,6 +446,18 @@ header{
 }
 #typescript{
     width: 85%;
+}
+
+#redux {
+    width: 75%;
+}
+
+#sass {
+    width: 98%;
+}
+
+#styled {
+    width: 96%;
 }
 
 
@@ -726,6 +751,19 @@ footer{
     #porcentagemTypeScript{
         left: 33.5%;
     }
+
+    #porcentagemRedux{
+        left: 18%;
+    }
+
+    #porcentagemSass{
+        left: 53%;
+    }
+
+    #porcentagemStyled{
+        left: 50%;
+    }
+
     .card{
         height: 440px;
     }
@@ -808,7 +846,19 @@ footer{
         left: 44%;
     }
     #porcentagemTypeScript{
-        left: 37%
+        left: 37%;
+    }
+
+    #porcentagemRedux{
+        left: 21%;
+    }
+
+    #porcentagemSass{
+        left: 56%;
+    }
+
+    #porcentagemStyled{
+        left: 53%;
     }
      
     .sobre-mim{
