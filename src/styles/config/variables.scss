@@ -1,0 +1,41 @@
+$primary-color: #ffffff;
+$secondary-color: #111;
+$purple-color: #986dff;
+$black-color: #000;
+$red-color: #ad081b;
+$lite-green-color: #1aeb47;
+$size-color: #9ca3af;
+
+$small-font-size: 1.6rem;
+$extra-small-font-size: 3.2rem;
+$large-font-size: 4.8rem;
+$extra-large-font-size: 6.4rem;
+$big-font-size: 8rem;
+$extra-big-font-size: 9.6rem;
+
+$small-padding: 1.6rem;
+$extra-small-padding: 3.2rem;
+$large-padding: 4.8rem;
+$extra-large-padding: 6.4rem;
+$big-padding: 8rem;
+$extra-big-padding: 9.6rem;
+
+@mixin mediaQurery($breakpoint) {
+  @if ($breakpoint == 'phone') {
+    @media (max-width: 749px) {
+      @content;
+    }
+  }
+
+  @if ($breakpoint == 'tablet') {
+    @media (max-width: 950px) and (min-width: 750px) {
+      @content;
+    }
+  }
+
+  @if ($breakpoint == 'laptop') {
+    @media (max-width: 1500px) and (min-width: 951px) {
+      @content;
+    }
+  }
+}
