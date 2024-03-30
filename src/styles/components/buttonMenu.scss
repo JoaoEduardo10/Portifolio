@@ -1,0 +1,18 @@
+.button-menu-mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+  width: 5rem;
+  height: 4rem !important;
+
+  svg {
+    font-size: 4rem;
+  }
+
+  .close {
+    color: $size-color;
+  }
+}
