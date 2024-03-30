@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 export type NavigationItensProps = {
@@ -8,17 +9,33 @@ export type NavigationItensProps = {
 
 export type NavigationProps = {
   navItens: NavigationItensProps[];
+  handleShowMenu?: (show: boolean) => void;
 };
 
-export const Navigation = ({ navItens }: NavigationProps) => {
+export const Navigation = ({ navItens, handleShowMenu }: NavigationProps) => {
+  const handleClickShowMenu = () => {
+    if (handleShowMenu) {
+      handleShowMenu(false);
+    }
+  };
+
   return (
-    <nav role="navigation" className="navigationHeader">
+    <nav
+      role="navigation"
+      aria-label="navegaçao leptop"
+      className="navigationHeader navigation-menu"
+    >
       <ul role="list">
-        {navItens.map((item) => (
-          <li role="listitem" key={item.link}>
-            <a href={item.link} target={item.target}>
+        {navItens.map((item, index) => (
+          <li onClick={handleClickShowMenu} role="listitem" key={index}>
+            <Link
+              href={item.link}
+              legacyBehavior
+              target={item.target}
+              rel="internal"
+            >
               {item.text}
-            </a>
+            </Link>
           </li>
         ))}
       </ul>
