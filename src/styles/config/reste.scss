@@ -10,6 +10,7 @@ html {
 
 body {
   font-size: 1.6rem;
+  color: $primary-color;
 }
 
 ul,
@@ -20,4 +21,10 @@ ol {
 a {
   text-decoration: none;
   color: #333;
+}
+
+.conteiner-bg-black {
+  background-color: $secondary-color;
+  width: 100%;
+  height: 100%;
 }

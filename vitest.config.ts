@@ -9,5 +9,10 @@ export default defineConfig({
     alias: {
       '@': path.resolve(__dirname, './src'),
     },
+    coverage: {
+      provider: 'v8',
+      include: ['src/components'],
+      exclude: ['src/components/**/*stories.tsx'],
+    },
   },
 });
