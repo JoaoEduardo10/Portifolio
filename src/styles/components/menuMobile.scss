@@ -1,0 +1,30 @@
+.menuMobile {
+  background-color: #151515;
+  height: 100vh;
+  width: 100%;
+  animation: menuMobileAnimation ease-in-out 300ms;
+  transition: all 300ms ease-in-out;
+
+  .navigationHeader {
+    ul {
+      padding-top: 5rem;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  @keyframes menuMobileAnimation {
+    0% {
+      height: 0vh;
+
+      opacity: 0;
+    }
+
+    100% {
+      height: 100vh;
+
+      opacity: 1;
+    }
+  }
+}
