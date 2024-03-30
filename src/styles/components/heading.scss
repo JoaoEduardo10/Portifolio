@@ -5,6 +5,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: $secondary-color;
 
   .logo {
     width: 10%;
@@ -18,4 +19,62 @@ header {
     text-transform: uppercase;
     font-size: 3rem;
   }
+
+  .button-menu-mobile {
+    display: none;
+  }
+
+  .navigation-menu {
+    display: block;
+  }
+
+  @include mediaQurery(phone) {
+    padding: 0 5rem;
+    height: 12rem;
+
+    .logoTitle {
+      text-transform: uppercase;
+      font-size: 2.4rem;
+    }
+
+    .button-menu-mobile {
+      display: block;
+
+      width: 10%;
+      height: 0.2rem;
+    }
+
+    .navigation-menu {
+      display: none;
+    }
+  }
+
+  @include mediaQurery(tablet) {
+    padding: 0 5rem;
+    height: 12rem;
+
+    .logoTitle {
+      text-transform: uppercase;
+      font-size: 2.4rem;
+    }
+
+    .button-menu-mobile {
+      display: block;
+
+      width: 10%;
+      height: 0.2rem;
+    }
+
+    .navigation-menu {
+      display: none;
+    }
+  }
+}
+
+.conteiner-header {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  z-index: 2;
+  width: 100%;
 }
