@@ -1,10 +1,14 @@
 import React from 'react';
 import { Heading } from '@/components/heading';
+import { TemplateHome } from '@/template/home';
 
 export default function Home() {
   return (
-    <main className="conteiner-bg-black">
+    <div className="conteiner-bg-black">
       <Heading text="Desenvolvedor" />
-    </main>
+      <main className="conteiner-main">
+        <TemplateHome />
+      </main>
+    </div>
   );
 }
