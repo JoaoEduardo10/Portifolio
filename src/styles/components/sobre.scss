@@ -1,0 +1,73 @@
+.conteiner-sobre {
+  background-color: #151515;
+  margin: 0 auto;
+  height: 50rem;
+  display: flex;
+  width: 60%;
+  padding: 3rem;
+  gap: 3rem;
+  margin-bottom: 10rem;
+  margin-top: 6rem;
+  border: 0.1rem solid #1f1f1f;
+  border-radius: 0.5rem;
+
+  .continer-image {
+    width: 50%;
+    height: 100%;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .conteiner-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+
+    h3 {
+      color: $purple-color;
+      margin-bottom: 1.8rem;
+    }
+
+    .sobre-name {
+      font-size: 3rem;
+
+      span {
+        display: block;
+        font-size: 1.6rem;
+        margin-top: 1.6rem;
+        margin-bottom: 2rem;
+      }
+    }
+
+    .sobre-text {
+      color: $size-color;
+      line-height: 2.4rem;
+      margin-bottom: 2rem;
+    }
+
+    .continer-icons {
+      display: flex;
+      gap: 1rem;
+
+      a {
+        background-color: $secondary-color;
+        padding: 1rem;
+        border: 0.1rem solid #1f1f1f;
+        border-radius: 0.5rem;
+
+        svg {
+          font-size: 3rem;
+          color: $purple-color;
+        }
+      }
+
+      a:hover {
+        border: 0.1rem solid $purple-color;
+      }
+    }
+  }
+}
