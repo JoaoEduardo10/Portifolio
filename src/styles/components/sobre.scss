@@ -1,7 +1,6 @@
 .conteiner-sobre {
   background-color: #151515;
   margin: 0 auto;
-  height: 50rem;
   display: flex;
   width: 60%;
   padding: 3rem;
@@ -11,9 +10,62 @@
   border: 0.1rem solid #1f1f1f;
   border-radius: 0.5rem;
 
+  @include mediaQurery(phone) {
+    flex-direction: column;
+    width: 90%;
+    padding: 1rem;
+
+    .continer-image {
+      height: 100%;
+    }
+
+    .conteiner-text {
+      height: 100%;
+
+      .sobre-name {
+        font-size: 2rem !important;
+
+        span {
+          font-size: 1.4rem !important;
+        }
+      }
+
+      .sobre-text {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  @include mediaQurery(tablet) {
+    flex-direction: column;
+    width: 90%;
+    padding: 1rem;
+
+    .continer-image {
+      min-height: 10% !important;
+    }
+
+    .conteiner-text {
+      height: 100%;
+
+      .sobre-name {
+        font-size: 3rem !important;
+
+        span {
+          font-size: 1.7rem !important;
+        }
+      }
+
+      .sobre-text {
+        font-size: 1.9rem;
+      }
+    }
+  }
+
   .continer-image {
-    width: 50%;
-    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    box-shadow: 10px 9px 20px -3px rgba(0, 0, 0, 0.75);
 
     img {
       width: 100%;
@@ -22,7 +74,7 @@
   }
 
   .conteiner-text {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     padding: 2rem 0;
