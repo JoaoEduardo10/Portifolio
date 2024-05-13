@@ -1,0 +1,68 @@
+.conteiner-experiencia {
+  min-width: 100%;
+
+  h2 {
+    margin-bottom: 5rem;
+    font-size: 4rem;
+
+    span {
+      color: $purple-color;
+    }
+  }
+
+  .experiencia {
+    display: flex;
+    gap: 4rem;
+
+    .experiencia-menu {
+      width: 50%;
+      max-height: 26rem;
+      background-color: $secondary-color;
+      overflow-y: auto;
+
+      li {
+        position: relative;
+        padding: 2.4rem 3.2rem;
+        cursor: pointer;
+      }
+
+      li:nth-child(1):before {
+        position: absolute;
+        content: '';
+        background-color: $purple-color;
+        height: 100%;
+        width: 2%;
+        left: 0;
+        top: 0;
+      }
+    }
+
+    .experiencia-conteiner-text {
+      display: flex;
+      flex-direction: column;
+      min-height: 100%;
+      gap: 3rem;
+
+      h3 {
+        font-size: 2.6rem;
+        display: flex;
+        justify-content: space-between;
+
+        span {
+          color: $size-color;
+        }
+      }
+
+      h4 {
+        font-size: 2rem;
+        color: $purple-color;
+      }
+
+      p {
+        color: $size-color;
+        font-size: 2rem;
+        line-height: 3rem;
+      }
+    }
+  }
+}
