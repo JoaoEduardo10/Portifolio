@@ -14,7 +14,7 @@ export const TemplateHome = () => {
   });
 
   return (
-    <section className="conteiner-template-home">
+    <section className="container-template-home">
       <h1>
         Ajudando empresas e pessoas a construírem <span>produtos digitais</span>{' '}
         de forma moderna e de alta qualidade.{' '}

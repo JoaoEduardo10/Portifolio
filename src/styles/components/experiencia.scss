@@ -1,4 +1,4 @@
-.conteiner-experiencia {
+.experience-container {
   min-width: 100%;
 
   h2 {
@@ -10,11 +10,11 @@
     }
   }
 
-  .experiencia {
+  .experience {
     display: flex;
     gap: 4rem;
 
-    .experiencia-menu {
+    .experience-menu {
       width: 50%;
       max-height: 26rem;
       background-color: $secondary-color;
@@ -26,7 +26,7 @@
         cursor: pointer;
       }
 
-      li:nth-child(1):before {
+      li.active:before {
         position: absolute;
         content: '';
         background-color: $purple-color;
@@ -37,7 +37,7 @@
       }
     }
 
-    .experiencia-conteiner-text {
+    .experience-details {
       display: flex;
       flex-direction: column;
       min-height: 100%;

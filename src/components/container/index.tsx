@@ -5,7 +5,7 @@ export type ConteinerPrpps = {
   width?: string;
 };
 
-export const Conteiner = ({ children, width }: ConteinerPrpps) => {
+export const Container = ({ children, width }: ConteinerPrpps) => {
   return (
     <section style={{ width: width ?? '100%' }} className="continer-section">
       {children}

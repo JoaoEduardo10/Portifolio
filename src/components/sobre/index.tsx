@@ -8,7 +8,7 @@ import { FiGithub } from 'react-icons/fi';
 
 export const Sobre = () => {
   return (
-    <section className="conteiner-sobre">
+    <section className="container-sobre">
       <div className="continer-image">
         <Image
           alt="imagem de programação"
@@ -17,7 +17,7 @@ export const Sobre = () => {
           height={4000}
         />
       </div>
-      <article className="conteiner-text">
+      <article className="container-text">
         <h3>Quem sou</h3>
         <div className="sobre">
           <p className="sobre-name">

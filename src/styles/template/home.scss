@@ -1,4 +1,4 @@
-.conteiner-template-home {
+.container-template-home {
   padding-top: 10rem;
   display: flex;
   flex-direction: column;
@@ -37,7 +37,7 @@
       text-align: center;
     }
 
-    .conteiner-button {
+    .container-button {
       width: 80%;
 
       button:hover {
@@ -51,7 +51,7 @@
       width: 90%;
     }
 
-    .conteiner-button {
+    .container-button {
       button:hover {
         transform: scale(0);
       }
@@ -59,7 +59,7 @@
   }
 }
 
-.conteiner-button {
+.container-button {
   width: 30%;
 
   button {

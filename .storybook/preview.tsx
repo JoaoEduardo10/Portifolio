@@ -13,7 +13,7 @@ const preview: Preview = {
   },
   decorators: [
     (Story) => (
-      <div style={{ height: '100vh' }} className="conteiner-bg-black">
+      <div style={{ height: '100vh' }} className="container-bg-black">
         <Story />
       </div>
     ),

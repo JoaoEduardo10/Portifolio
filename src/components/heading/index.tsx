@@ -21,7 +21,7 @@ export const Heading = ({ logo, text }: HeadingProps) => {
   };
 
   return (
-    <div className="conteiner-header">
+    <div className="container-header">
       <header>
         {logo ? (
           <div aria-label="logo" className="logo">

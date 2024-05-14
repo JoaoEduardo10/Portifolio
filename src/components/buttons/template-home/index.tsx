@@ -18,7 +18,7 @@ export const Button = ({ redirect, text }: ButtonProps) => {
   };
 
   return (
-    <div className="conteiner-button">
+    <div className="container-button">
       <button onClick={handleClick}>{text}</button>
     </div>
   );
