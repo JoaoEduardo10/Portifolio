@@ -1,4 +1,12 @@
 .continer-section {
   background-color: #151515;
   padding: 9.8rem 38rem;
+
+  @include mediaQurery(phone) {
+    padding: 9.8rem 0;
+  }
+
+  @include mediaQurery(tablet) {
+    padding: 9.8rem 0;
+  }
 }

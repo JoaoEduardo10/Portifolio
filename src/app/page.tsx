@@ -4,6 +4,7 @@ import { Heading } from '@/components/heading';
 import { TemplateHome } from '@/template/home';
 import { Sobre } from '@/components/sobre';
 import { Experience } from '@/components/experience';
+import { Project } from '@/components/project';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         </div>
         <Sobre />
         <Experience />
+        <Project />
       </main>
     </div>
   );

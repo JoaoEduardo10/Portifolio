@@ -45,8 +45,6 @@ export const formatDates = (startDate: string, endDate: string | null) => {
       ? `${startMonth} ${startYear} - Atual`
       : `${startMonth} ${startYear} - ${endMonth} ${endYear}`;
 
-  console.log(observation);
-
   if (years > 0) {
     formattedDate += ` (${years} anos)`;
   } else {

@@ -8,17 +8,53 @@
     span {
       color: $purple-color;
     }
+
+    @include mediaQurery(phone) {
+      text-align: center;
+    }
+
+    @include mediaQurery(tablet) {
+      text-align: center;
+    }
   }
 
   .experience {
     display: flex;
     gap: 4rem;
 
+    @include mediaQurery(phone) {
+      flex-direction: column;
+      width: 100%;
+      padding: 2rem;
+
+      .experience-menu {
+        width: 100%;
+      }
+    }
+
+    @include mediaQurery(tablet) {
+      flex-direction: column;
+      width: 100%;
+      padding: 2rem;
+
+      .experience-menu {
+        width: 100%;
+      }
+    }
+
     .experience-menu {
       width: 50%;
       max-height: 26rem;
       background-color: $secondary-color;
       overflow-y: auto;
+
+      @include mediaQurery(phone) {
+        width: 100%;
+      }
+
+      @include mediaQurery(tablet) {
+        width: 100%;
+      }
 
       li {
         position: relative;
@@ -34,6 +70,14 @@
         width: 2%;
         left: 0;
         top: 0;
+
+        @include mediaQurery(tablet) {
+          width: 1%;
+        }
+      }
+
+      @include mediaQurery(tablet) {
+        width: 100%;
       }
     }
 
@@ -50,6 +94,12 @@
 
         span {
           color: $size-color;
+        }
+
+        @include mediaQurery(phone) {
+          flex-direction: column;
+          font-size: 2rem;
+          gap: 3rem;
         }
       }
 
